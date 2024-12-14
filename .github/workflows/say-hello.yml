@@ -11,5 +11,5 @@ jobs:
     steps:
       
       - uses: actions/checkout@v4
-	# Печатает на экран строку Hello, World!      
+      
       - run: make say-hello
