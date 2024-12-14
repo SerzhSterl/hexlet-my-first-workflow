@@ -1,0 +1,15 @@
+name: show-directory
+
+on: push
+
+jobs:
+  
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      
+      - uses: actions/checkout@v4
+	# Печатает на экран строку Hello, World!      
+      - run: make say-hello
